@@ -1,10 +1,12 @@
-function Swith(props){
-    if(props.on == true){
-        return <h1>Lights is on</h1>
-    }
-    else{
-        return <h1>Lights is off</h1>
-    }
-}
+import { useState } from "react";
 
-export default Swith;
+function Switch() {
+    const [number, setNumber] = useState(0);
+    return (
+        <div className="Switch">
+            <h1>{number}</h1>
+            <button onClick={() => setNumber(number + 1)}>Increse</button>
+        </div>
+    );
+}
+export default Switch;
