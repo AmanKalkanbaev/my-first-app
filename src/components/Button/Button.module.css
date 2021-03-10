@@ -1,0 +1,7 @@
+.Button{
+    background-color: rgba(0, 0, 255, 0);
+    color: azure;
+    border: white solid 2px;
+    padding: 7px 5px;
+    margin: 10px;
+}

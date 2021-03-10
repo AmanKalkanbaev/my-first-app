@@ -17,6 +17,7 @@
 // import Color from "./components/Color";
 import Calc from "./components/Calc";
 import Lists from "./components/Lists";
+import "./App.css";
 
 import ListsTable from "./components/ListsTable";
 
@@ -51,6 +52,17 @@ import Superscript from "./components/Superscript";
 // import OList from "./components/OList";
 // import SList from "./components/SList";
 import TextImput from "./components/TextImput"
+import Example from "./components/Example/Example";
+import Button from "./components/Button/Button";
+import CoolButton from "./components/CoolButton/CoolButton";
+import PastelButton from "./components/PastelButton/PastelButton";
+import PigsButton from "./components/PigsButton/PigsButton";
+import ButtonInFrame from "./components/ButtonInFrame/ButtonInFrame";
+import CircleBorder from "./components/CircleBorder/CircleBorder";
+import ButtonGay from "./components/ButtonGay/ButtonGay";
+import OutlineBorder from "./components/OutlineBorder/OutlineBorder";
+import StrangeButton from "./components/StrangeButton/StrangeButton";
+import NasvaiButton from "./components/NasvaiButton/NasvaiButton";
 
 function App() {
   return (
@@ -96,7 +108,7 @@ function App() {
        */}
       {/* <TextImput/> */}
       {/* <Calc/> */}
-      <Lists items={["itemOne","itemsTwo","itemYch"]}/>
+      {/* <Lists items={["itemOne","itemsTwo","itemYch"]}/>
 
       <ListsTable items={["itemOne","itemsTwo","itemYch"]}/>
 
@@ -122,8 +134,22 @@ function App() {
       <Smaller items={["itemOne","itemsTwo","itemYch"]}/>
       <Inserted items={["itemOne","itemsTwo","itemYch"]}/>
       <Subscript items={["itemOne","itemsTwo","itemYch"]}/>
-      <Superscript items={["itemOne","itemsTwo","itemYch"]}/>
+      <Superscript items={["itemOne","itemsTwo","itemYch"]}/> */}
+      <Example/>
+      <Button>Knopka</Button>
+      <CoolButton>Nigger</CoolButton>
+      <PastelButton>Devochka</PastelButton>
+      <PigsButton>Svinya</PigsButton>
+      <ButtonInFrame>Red frame</ButtonInFrame>
+      <CircleBorder>Krujochki</CircleBorder>
+      <ButtonGay>Roket Man</ButtonGay>
+      <OutlineBorder>Blue button</OutlineBorder>
+      <StrangeButton>I'm cramped</StrangeButton>
+      <NasvaiButton>Give me Nasvai</NasvaiButton>
+
+      
     </div>
+    
   );
 }
 

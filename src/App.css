@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+}
+.App{
+    background-color: rgb(68, 61, 61);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 200px;
+}

@@ -1,0 +1,11 @@
+.ButtonGay{
+    background-color: rgba(0, 0, 255, 0);
+    color: rgb(255, 238, 0);
+    border-top: rgb(8, 243, 0) solid 5px;
+    border-right: rgb(0, 225, 255) solid 5px;
+    border-left: rgb(255, 0, 98) solid 5px;
+    border-bottom: rgb(0, 26, 255) solid 5px;
+    padding: 7px 5px;
+    margin: 10px;
+    text-decoration: underline;
+}

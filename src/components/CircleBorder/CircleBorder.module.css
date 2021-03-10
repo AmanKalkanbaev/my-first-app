@@ -1,0 +1,9 @@
+.CircleBorder{
+    background-color: rgba(0, 0, 255, 0);
+    color: rgb(0, 17, 255);
+    border: rgb(7, 204, 0) dotted 7px;
+    padding: 7px 20px;
+    font-size: 15px;
+    font-weight: 800;
+    margin: 10px;
+}

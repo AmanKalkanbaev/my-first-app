@@ -1,0 +1,8 @@
+.CoolButton{
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    text-align: right;
+    padding: 5px 5px 5px 20px;
+    border: none;
+    margin: 10px;
+}

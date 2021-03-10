@@ -1,0 +1,9 @@
+.OutlineBorder{
+    background-color: rgb(98, 98, 255);
+    color: azure;
+    border: 2px dashed white;
+    padding: 7px 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px;
+}
